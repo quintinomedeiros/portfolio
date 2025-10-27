@@ -1,0 +1,32 @@
+.competences{
+    display: flex;
+    flex-direction: column;
+}
+
+.personal_competences_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.professional_competences_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.professional_competences_list_item img{
+    width: 64px;
+    height: 64px;
+    margin: 0.5rem;
+}

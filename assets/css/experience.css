@@ -1,0 +1,42 @@
+.experience_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.experience_list_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.experience_list_item_data, .experience_list_item_place {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    font-size: 1.125rem; 
+    margin-bottom: 1rem;
+}
+
+.experience_list_item_data::before, .experience_list_item_place::before{
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.5rem;
+}
+
+.experience_list_item_place::before{
+    background-image: url(../icons/location.svg);
+}
+
+.experience_list_item_data::before{
+    background-image: url(../icons/calender.svg);
+}

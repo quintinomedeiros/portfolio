@@ -1,0 +1,66 @@
+.acordeon{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    transition: 0.25s;
+}
+
+/* Só irá mostrar o conteúdo quando a seção estiver aberta */
+.acordeon_content{
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.acordeon.acordeon_open .acordeon_trigger::after{
+    transform: rotate(180deg);
+}
+
+.acordeon.acordeon_open .acordeon_content{
+    display: block;
+    height: 100%;
+    opacity: 1;
+    padding: 0 1rem 2rem 1rem;
+}
+
+.acordeon:hover, .acordeon_open{
+    background-color: #140B0F;
+    border-color: #140B0F;
+    border: 1px solid #ffffff;
+}
+
+.acordeon_trigger{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+button.acordeon_trigger h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 0;
+}
+
+.acordeon_trigger::after{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../icons/up-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+    transition: 0.25s;
+}
+
+.acordeon_trigger:hover{
+    cursor: pointer;
+}
