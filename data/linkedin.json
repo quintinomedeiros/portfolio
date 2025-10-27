@@ -1,0 +1,122 @@
+
+{
+    "perfil": {
+      "nome": "Quintino Medeiros",
+      "titulo": "Psicologia | Análise de Sistemas | Gestão e Desenvolvimento de Pessoas | Ciência de Dados",
+      "localizacao": "Brasília, Distrito Federal, Brasil",
+      "email": "quintinomedeiros@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/quintinomedeiros"
+    },
+  
+    "sobre": "Ao longo da minha carreira, tive a oportunidade de atuar em diversas organizações, tanto na iniciativa privada quanto no setor público. Sempre me dediquei a entregar resultados de excelência, além de melhorar processos e produtos sob minha gestão. Durante essa jornada, gerenciei e participei de inúmeros projetos, buscando continuamente o aprendizado e o crescimento. E, com muito orgulho, fiz grandes amizades por onde passei. Meu foco sempre foi equilibrar pessoas, processos e resultados, buscando promover saúde, qualidade de vida e alta performance, tanto para mim quanto para as equipes com as quais trabalhei. Minha formação inicial foi em Psicologia, em níveis de graduação e mestrado, com ênfase nas áreas organizacional, social e da saúde. Minha trajetória profissional seguiu pela Gestão de Pessoas, onde desenvolvi expertise em avaliação de desempenho, recrutamento, seleção e desenvolvimento de talentos. Com o intuito de aprimorar ainda mais minhas habilidades e fortalecer o relacionamento com colegas de trabalho, especializei-me em Gestão de Pessoas, Gestão Pública e Auditoria. Essas especializações permitiram-me agregar os conceitos da administração moderna às minhas atividades diárias. Nos últimos anos, considerando que sempre trabalhei com processos e produtos mediados por sistemas informatizados, decidi expandir meus conhecimentos para Análise e Desenvolvimento de Sistemas. Tenho focado no desenvolvimento web front-end, análise e visualização de dados, e, mais recentemente, no estudo de modelos aplicados de inteligência artificial.",
+  
+    "competencias": [
+      "Setor público",
+      "Psicologia",
+      "Educação corporativa"
+    ],
+  
+    "certificados": [
+      { "titulo": "Moodle 4.0 for Admins" },
+      { "titulo": "Moodle Administration Settings" },
+      { "titulo": "Moodle Admin Basics" },
+      { "titulo": "CourseCreation Basics" },
+      { "titulo": "Manage Your Users" }
+    ],
+  
+    "experiencia": [
+      {
+        "cargo": "Analista Legislativo - Processo Legislativa e Gestão",
+        "empresa": "Câmara dos Deputados",
+        "periodo": "dezembro de 2016 - presente",
+        "localizacao": "Brasília, Distrito Federal, Brasil",
+        "descricao": "Gestão da plataforma de Aprendizagem Virtual da Câmara dos Deputados. Desenho Instrucional de eventos de capacitação a Distância. Contratação e gestão de educadores. Atendimento aos usuários da Plataforma Virtual de Aprendizagem. Assessoria à Coordenação de Tecnologias Educacionais e Comunicação da Escola da Câmara."
+      },
+      {
+        "cargo": "Analista Administrativo - Área Administrativa",
+        "empresa": "Conselho Nacional de Justiça (CNJ)",
+        "periodo": "agosto de 2013 - dezembro de 2016",
+        "localizacao": "Brasília, Distrito Federal, Brasil",
+        "descricao": "Análise de processos, confecção de relatórios, análise de dados, atualização de normativos e contratação referentes aos seguintes processos: Adicional de Qualificação, Educação Corporativa, Bolsa de Estudo de Pós-Graduação e de Língua Estrangeira. Desde 26 de fevereiro de 2014 exercia a função de Chefe Substituto da Seção de Educação Corporativa."
+      },
+      {
+        "cargo": "Técnico Judiciário - Área Administrativa",
+        "empresa": "Tribunal Superior Eleitoral",
+        "periodo": "maio de 2013 - agosto de 2013",
+        "localizacao": "Brasília, Distrito Federal, Brasil",
+        "descricao": "Análise de processos de licença capacitação e de concessão de adicional de qualificação. Apoio em processos de diagnóstico organizacional, pesquisa de clima organizacional e de gestão por competências."
+      },
+      {
+        "cargo": "Técnico Jurídico",
+        "empresa": "Procuradoria-Geral do Distrito Federal",
+        "periodo": "janeiro de 2011 - maio de 2013",
+        "localizacao": "Brasília, Distrito Federal, Brasil",
+        "descricao": "Trâmite, arquivamento, desarquivamento e movimentação de processos."
+      },
+      {
+        "cargo": "Analista Pleno",
+        "empresa": "Banco do Brasil S.A.",
+        "periodo": "dezembro de 2000 - dezembro de 2009",
+        "localizacao": "Brasília, Distrito Federal, Brasil",
+        "descricao": "Exerci até outubro de 2002 as funções de escriturário, atuando no atendimento ao público da Agência. Nesta época fui transferido para a Diretoria Gestão de Pessoas, onde atuei nos cargos de escriturário, assistente administrativo, analista júnior, analista pleno e assessor pleno. Desenvolvi atividades de normatização e criação de políticas em recrutamento, comissionamento e movimentação de pessoal. Gerenciava o sistema eletrônico de identificação de talentos. Atuei como psicólogo colaborador na condução de processos seletivos para diversos cargos."
+      },
+      {
+        "cargo": "Auxiliar administrativo",
+        "empresa": "Jornal A Folha do Entorno",
+        "periodo": "janeiro de 2000 - dezembro de 2000",
+        "localizacao": "Brasília, Distrito Federal, Brasil",
+        "descricao": "Desenvolvia atividades de assessoria para o Jornal em diversos assuntos."
+      },
+      {
+        "cargo": "Palestrante",
+        "empresa": "Grupo Biologia e Saúde e Grupo Odontológico Estudantil Brasileiro",
+        "periodo": "março de 1998 - dezembro de 1999",
+        "localizacao": "Brasília, Distrito Federal, Brasil",
+        "descricao": "Realizava palestras em empresas e escolas do Distrito Federal e cidades próximas sobre primeiros socorros, prevenção médica, higiene bucal e prevenção oral."
+      },
+      {
+        "cargo": "Agente de Reintegração Social",
+        "empresa": "Governo do Distrito Federal",
+        "periodo": "1997",
+        "localizacao": "Brasília, Distrito Federal, Brasil",
+        "descricao": "Desempenhava atividades de acompanhamento de internos do Centro de Atendimento Juvenil Especializado do DF."
+      }
+    ],
+  
+    "formacao": [
+      {
+        "instituicao": "Universidade de Brasília",
+        "curso": "Mestrado em Psicologia da Saúde/Médica",
+        "periodo": "janeiro de 2004 - novembro de 2006"
+      },
+      {
+        "instituicao": "Universidade de Brasília",
+        "curso": "Graduação em Psicologia",
+        "periodo": "janeiro de 1997 - julho de 2003"
+      },
+      {
+        "instituicao": "IESB",
+        "curso": "Tecnólogo em Análise de Sistemas de Computação",
+        "periodo": "julho de 2018 - julho de 2020"
+      },
+      {
+        "instituicao": "Unyleya",
+        "curso": "Pós-graduação Lato Sensu - Especialização em Auditoria do Setor Público",
+        "periodo": "agosto de 2016 - dezembro de 2017"
+      },
+      {
+        "instituicao": "Universidade Candido Mendes",
+        "curso": "Pós-graduação Lato Sensu - Especialização em Administração Pública",
+        "periodo": "abril de 2009 - abril de 2011"
+      }
+    ],
+  
+    "publicacoes": [
+      "Intervenção cognitivo-comportamental e adesão ao tratamento em pessoas com HIV/Aids.",
+      "Oficina sobre sexualidade e práticas sexuais seguras: trabalhando a prevenção às DST/HIV/AIDS com adolescentes em medidas socioeducativas.",
+      "Prevenção das DST/Aids junto a adolescentes de escola pública: avaliando mudanças de conhecimentos, atitudes e crenças sobre sexualidade e práticas seguras.",
+      "Percepções de pessoas soropositivas sobre o tratamento antirretroviral: resultados de um grupo focal.",
+      "Pessoas vivendo com HIV/AIDS: possibilidades de atuação da Psicologia."
+    ]
+  }
+  

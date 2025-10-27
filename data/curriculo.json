@@ -1,0 +1,65 @@
+{
+    "perfil": {
+      "nome": "Quintino Medeiros",
+      "cargo": "Assessor Técnico na Câmara dos Deputados",
+      "localizacao": "Brasília - DF",
+      "telefone": "61-98877-6655",
+      "email": "quintinomedeirosdev@gmail.com",
+      "foto": "./assets/img/logo_quintino.png",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/quintinomedeiros",
+        "whatsapp": "https://api.whatsapp.com/send?phone=5561988776655",
+        "maps": "https://maps.app.goo.gl/KTav7svudh533CV6A"
+      }
+    },
+  
+    "competencias": {
+      "pessoais": [
+        "Trabalho em equipe",
+        "Aprendizado contínuo",
+        "Inovação e melhoria de sistemas",
+        "Resolução de problemas"
+      ],
+      "profissionais": [
+        { "nome": "Python", "icone": "./assets/icons/python.svg" },
+        { "nome": "Moodle", "icone": "./assets/icons/moodle.svg" },
+        { "nome": "JavaScript", "icone": "./assets/icons/javascript.svg" },
+        { "nome": "Power BI", "icone": "./assets/icons/powerbi.svg" }
+      ]
+    },
+  
+    "experiencias": [
+      {
+        "cargo": "Analista Legislativo - Processo Legislativo e Gestão",
+        "instituicao": "Câmara dos Deputados",
+        "periodo": "desde dezembro de 2016",
+        "descricao": "Gestão da plataforma de Aprendizagem Virtual da Câmara dos Deputados. Desenho Instrucional de eventos de capacitação a Distância. Contratação e gestão de educadores. Atendimento aos usuários da Plataforma Virtual de Aprendizagem. Assessoria à Coordenação de Tecnologias Educacionais e Comunicação da Escola da Câmara."
+      },
+      {
+        "cargo": "Analista Administrativo - Área Administrativa",
+        "instituicao": "Conselho Nacional de Justiça",
+        "periodo": "agosto de 2013 a dezembro de 2016",
+        "descricao": "Análise de processos, confecção de relatórios, análise de dados, atualização de normativos e contratação referentes aos seguintes processos: Adicional de Qualificação, Educação Corporativa, Bolsa de Estudo de Pós-Graduação e de Língua Estrangeira. Desde fevereiro de 2014 exercia a função de Chefe Substituto da Seção de Educação Corporativa."
+      },
+      {
+        "cargo": "Analista Pleno",
+        "instituicao": "Banco do Brasil",
+        "periodo": "dezembro de 2000 a dezembro de 2009",
+        "descricao": "Exerci até outubro de 2002 as funções de escriturário, atuando no atendimento ao público da Agência. Depois atuei na Diretoria de Gestão de Pessoas como escriturário, assistente administrativo, analista júnior, analista pleno e assessor pleno. Desenvolvi atividades de normatização e criação de políticas em recrutamento, comissionamento e movimentação de pessoal. Gerenciei o sistema eletrônico de identificação de talentos e atuei como psicólogo colaborador em processos seletivos."
+      }
+    ],
+  
+    "portfolio": [
+      {
+        "titulo": "Robô indicador de compra de ações",
+        "repositorio": "https://github.com/quintinomedeiros/robo_indicador.git"
+      },
+      {
+        "titulo": "Portfólio feito com Javascript, HTML e CSS",
+        "repositorio": "https://github.com/quintinomedeiros/portfolio.git"
+      }
+    ],
+  
+    "idiomas": ["Português", "Inglês", "Espanhol"]
+  }
+  

@@ -33,7 +33,7 @@ a:hover {
 }
 
 
-.experience_list_item_title h3, .professional_competences h3, .personal_competences h3 {
+.experience_list_item_title h3, .professional_competences h3, .personal_competences h3, .portfolio_list_item_title h3 {
     display: flex;
     flex-direction: row;
     align-items:center;
