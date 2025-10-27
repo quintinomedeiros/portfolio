@@ -5,12 +5,13 @@
       "localizacao": "Brasília - DF",
       "telefone": "61-98877-6655",
       "email": "quintinomedeirosdev@gmail.com",
-      "foto": "./assets/img/logo_quintino.png",
+      "foto_url": "https://avatars.githubusercontent.com/u/87319222?v=4",
       "links": {
         "linkedin": "https://www.linkedin.com/in/quintinomedeiros",
         "whatsapp": "https://api.whatsapp.com/send?phone=5561988776655",
         "maps": "https://maps.app.goo.gl/KTav7svudh533CV6A"
-      }
+      },
+      "sobre": "Ao longo da minha carreira, tive a oportunidade de atuar em diversas organizações, tanto na iniciativa privada quanto no setor público. Sempre me dediquei a entregar resultados de excelência, além de melhorar processos e produtos sob minha gestão. Durante essa jornada, gerenciei e participei de inúmeros projetos, buscando continuamente o aprendizado e o crescimento. E, com muito orgulho, fiz grandes amizades por onde passei. Meu foco sempre foi equilibrar pessoas, processos e resultados, buscando promover saúde, qualidade de vida e alta performance, tanto para mim quanto para as equipes com as quais trabalhei. Minha formação inicial foi em Psicologia, em níveis de graduação e mestrado, com ênfase nas áreas organizacional, social e da saúde. Minha trajetória profissional seguiu pela Gestão de Pessoas, onde desenvolvi expertise em avaliação de desempenho, recrutamento, seleção e desenvolvimento de talentos. Com o intuito de aprimorar ainda mais minhas habilidades e fortalecer o relacionamento com colegas de trabalho, especializei-me em Gestão de Pessoas, Gestão Pública e Auditoria. Essas especializações permitiram-me agregar os conceitos da administração moderna às minhas atividades diárias. Nos últimos anos, considerando que sempre trabalhei com processos e produtos mediados por sistemas informatizados, decidi expandir meus conhecimentos para Análise e Desenvolvimento de Sistemas. Tenho focado no desenvolvimento web front-end, análise e visualização de dados, e, mais recentemente, no estudo de modelos aplicados de inteligência artificial."
     },
   
     "competencias": {
@@ -21,10 +22,10 @@
         "Resolução de problemas"
       ],
       "profissionais": [
-        { "nome": "Python", "icone": "./assets/icons/python.svg" },
-        { "nome": "Moodle", "icone": "./assets/icons/moodle.svg" },
-        { "nome": "JavaScript", "icone": "./assets/icons/javascript.svg" },
-        { "nome": "Power BI", "icone": "./assets/icons/powerbi.svg" }
+        { "nome": "Python", "icone": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Python_logo_51.svg" },
+        { "nome": "Moodle", "icone": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Moodle-logo.svg" },
+        { "nome": "JavaScript", "icone": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg" },
+        { "nome": "Power BI", "icone": "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" }
       ]
     },
   
@@ -52,11 +53,13 @@
     "portfolio": [
       {
         "titulo": "Robô indicador de compra de ações",
-        "repositorio": "https://github.com/quintinomedeiros/robo_indicador.git"
+        "repositorio": "https://github.com/quintinomedeiros/robo_indicador.git",
+        "descricao": "Repositório do Robô"
       },
       {
         "titulo": "Portfólio feito com Javascript, HTML e CSS",
-        "repositorio": "https://github.com/quintinomedeiros/portfolio.git"
+        "repositorio": "https://github.com/quintinomedeiros/portfolio.git",
+        "descricao": "Repositório do Portfólio"
       }
     ],
   
