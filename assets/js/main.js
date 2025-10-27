@@ -1,4 +1,5 @@
 
+
 function updateProfileInfo(profileData){
     // Atualização da foto
     const profile_photo = document.getElementById("profile-photo");
@@ -33,124 +34,74 @@ function updateProfileInfo(profileData){
     const profile_information = document.getElementById("profile-information");
     profile_information.textContent = profileData.perfil.sobre;
 
-    // Atualização das competências pessoais
-    const soft_skills_list = document.getElementById("softSkills");
-    profileData.competencias.pessoais.forEach(pessoal => {
-        // Cria o <li> principal
-        const listItem = document.createElement("li");
-
-        // inclui o texto dentro do <li>
-        listItem.textContent = pessoal;
-        listItem.classList.add("personal_competences_list");
-
-        // Adiciona o <li> no <ul>
-        soft_skills_list.appendChild(listItem);
-    });
-
-    // Atualização das competências pofissionais
-    const hard_skills_list = document.getElementById("hardSkills");
-    profileData.competencias.profissionais.forEach(profissional => {
-        // Cria o <li> principal
-        const listItem = document.createElement("li");
-        listItem.classList.add("professional_competences_list_item");
-
-        // inclui o ícone dentro do <li>
-        const img = document.createElement("img");
-        img.src = profissional.icone;
-        img.alt = profissional.nome;
-        img.title = profissional.nome;
-        listItem.appendChild(img);
-
-        // Adiciona o <li> no <ul>
-        hard_skills_list.appendChild(listItem);
-    });
-
-
-    // Atualização da Experiência profissional
-    const experienceList = document.getElementById("professional_experience");
-
-    profileData.experiencias.forEach(exp => {
-        // Cria o <li> principal
-        const li = document.createElement("li");
-        li.classList.add("experience_list_item");
-    
-        // Título (cargo)
-        const titleSpan = document.createElement("span");
-        titleSpan.classList.add("experience_list_item_title");
-    
-        const titleH3 = document.createElement("h3");
-        titleH3.textContent = exp.cargo;
-        titleSpan.appendChild(titleH3);
-    
-        // Instituição
-        const placeSpan = document.createElement("span");
-        placeSpan.classList.add("experience_list_item_place");
-        placeSpan.textContent = exp.instituicao;
-    
-        // Período
-        const dateSpan = document.createElement("span");
-        dateSpan.classList.add("experience_list_item_data");
-        dateSpan.textContent = exp.periodo;
-    
-        // Descrição
-        const descSpan = document.createElement("span");
-        descSpan.classList.add("experience_list_item_description");
-        descSpan.textContent = exp.descricao;
-    
-        // Monta a ordem dentro do <li>
-        li.appendChild(titleSpan);
-        li.appendChild(placeSpan);
-        li.appendChild(dateSpan);
-        li.appendChild(descSpan);
-    
-        // Adiciona o <li> no <ul>
-        experienceList.appendChild(li);
-    });
-
-    // Atualização do portfólio
-    const portfolioList = document.getElementById("potfolio_list"); // atenção ao ID
-
-    // Percorre o array do JSON
-    profileData.portfolio.forEach(item => {
-        // Cria o <li>
-        const li = document.createElement("li");
-        li.classList.add("portfolio_list_item");
-
-        // Span com o título
-        const titleSpan = document.createElement("span");
-        titleSpan.classList.add("portfolio_list_item_title", "github_icon");
-
-        const titleH3 = document.createElement("h3");
-        titleH3.textContent = item.titulo;
-        titleSpan.appendChild(titleH3);
-
-        // Link para o repositório
-        const repoLink = document.createElement("a");
-        repoLink.href = item.repositorio;
-        repoLink.target = "_blank";
-        repoLink.textContent = item.descricao;
-
-        // Monta o <li>
-        li.appendChild(titleSpan);
-        li.appendChild(repoLink);
-
-        // Adiciona o <li> no <ul>
-        portfolioList.appendChild(li);
-    });
-
-    // Atualização do idioma
-    const languagesList = document.querySelector("#languages .languages_list");
-
-    // Percorre o array do JSON
-    profileData.idiomas.forEach(idioma => {
-        const idiomaLi = document.createElement("li");
-        idiomaLi.textContent = idioma;
-        languagesList.appendChild(idiomaLi);
-    });
 }
 
-(async () => {
+function updateSkills(profileData) {
+    const softSkillsList = document.getElementById("softSkills");
+
+   softSkillsList.innerHTML = profileData.competencias.pessoais
+    .map(softSkill => `
+        <li class="personal_competences_list">${softSkill}
+        </li>
+    `)
+    .join('');  
+
+    const hardSkillsList = document.getElementById("hardSkills");
+
+    hardSkillsList.innerHTML = profileData.competencias.profissionais
+        .map(hardSkill => `
+            <li class="professional_competences_list_item">
+                <img src="${hardSkill.icone}" alt="${hardSkill.nome} title="${hardSkill.nome}">
+            </li>
+        `)
+        .join('');
+}
+
+function updateExperiences(profileData) {
+    const experienceList = document.getElementById("professional_experience");
+
+    experienceList.innerHTML = profileData.experiencias
+        .map(exp => `
+            <li class="experience_list_item">
+                <span class="experience_list_item_title"><h3>${exp.cargo}</h3></span>
+                <span class="experience_list_item_place">${exp.instituicao}</span>
+                <span class="experience_list_item_data">${exp.periodo}</span>
+                <span class="experience_list_item_description">${exp.descricao}</span>
+            </li>
+        `)
+        .join('');
+}
+
+function updatePortfolio(profileData) {
+    const portfolioList = document.getElementById("portfolio_list"); // atenção ao ID
+
+    portfolioList.innerHTML = profileData.portfolio
+        .map(item => `
+            <li class="portfolio_list_item">
+                <span class="portfolio_list_item_title github_icon">
+                    <h3>${item.titulo}</h3>
+                </span>
+                <a href="${item.repositorio}" target="_blank">${item.descricao}</a>
+            </li>
+        `)
+        .join('');
+}
+
+function updateLanguages(profileData) {
+    // Seleção da ul dos idiomas
+    const languagesList = document.querySelector("#languages ul");
+
+    languagesList.innerHTML = profileData.idiomas
+        .map(idioma => `<li>${idioma}</li>`)
+        .join('');
+}
+// Executa quando DOM estiver pronto
+document.addEventListener("DOMContentLoaded", async () => {
     const profileData = await fetchProfileData();
     updateProfileInfo(profileData);
+    updateSkills(profileData);
+    updateExperiences(profileData);
+    updatePortfolio(profileData);
+    updateLanguages(profileData);
     console.log(profileData);
-})();
+});
