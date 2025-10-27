@@ -3,6 +3,11 @@
     flex-direction: column;
 }
 
+.competences h3 {
+    margin: 2rem 0;
+    justify-content: center;
+}
+
 .personal_competences_list {
     display: flex;
     flex-direction: row;
@@ -11,7 +16,12 @@
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    list-style: none;
+}
+
+.personal_competences_list li{
+    margin-left: 2rem;
+    padding: 0.5rem;
+    display: list-item; 
 }
 
 .professional_competences_list {
@@ -29,4 +39,12 @@
     width: 64px;
     height: 64px;
     margin: 0.5rem;
+}
+
+/* Ajustes pra Desktop (a partir de 768px) */
+@media only screen and (min-width: 768px) {
+    .competences{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
